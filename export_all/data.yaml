@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['AirPods']
+
+roboflow:
+  workspace: hdmodel
+  project: airpods_tracking_v2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hdmodel/airpods_tracking_v2/dataset/1
